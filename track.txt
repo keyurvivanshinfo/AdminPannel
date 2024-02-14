@@ -1,0 +1,30 @@
+
+
+
+documen.ready(){
+
+
+    var page = 0;
+
+    var obj  = {
+        page:0,
+        key:"",
+        orderby:""firsrname,
+        order : "asc"
+        
+            }
+
+
+
+            $("searchid").on("keyup",functio(){
+                obj.key = $("searchid").val();
+                getdata(obj.page,obj.key,orderby,order);
+            })
+
+
+            $()
+
+
+}
+
+
